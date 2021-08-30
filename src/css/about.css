@@ -1,0 +1,24 @@
+.about{
+    background-color: rgb(167, 166, 166);
+    height: 50vh;
+    display: flex;
+}
+
+.about_img{
+    width:50vw;
+}
+
+.about_div{
+    width:50vw;
+    background-color: white;
+    padding: 0 30px;
+}
+
+.about_div h3{
+    background-color: rgb(167, 166, 166);
+    padding: 2px 8px;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 2px;
+}
+
