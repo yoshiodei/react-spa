@@ -10,6 +10,7 @@ const Nav = () => {
                 <li><a href="">Services</a></li>
                 <li><a href="">Products</a></li>
                 <li><a href="">Contact</a></li>
+                <li><a href="">Cart</a></li>
             </ul>
             <div className="nav_hamburger">
                 <span></span>
