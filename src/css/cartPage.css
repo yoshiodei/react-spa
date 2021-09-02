@@ -1,0 +1,119 @@
+.cart-page {
+    min-height: 80vh;
+    width: 100%;
+    padding: 20px 25vw;
+}
+
+.cart-page_div .line {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.13);
+    margin: 15px 0;
+}
+
+.cart-page_div .line:last-of-type {
+    display: none;
+}
+
+.cart-page_title{
+    margin-bottom: 20px;
+    background-color: rgb(167, 166, 166);
+    padding: 2px 8px;
+    color: white;
+    border-radius: 2px;
+}
+
+.cart-page_card {
+    width: 50vw;
+    height: 17vh;
+    /* background-color: rgba(190, 190, 190, 0.158); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-page_card img{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(146, 146, 146);
+}
+
+.cart-page_card_detail-div{
+    padding-left: 10px;
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(138, 50, 50); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cart-page_card_detail-div p{
+    font-size: 1.15em;
+    margin-bottom: 2px;
+}
+
+.cart-page_card_item_quantity {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-page_card_item_quantity_div {
+
+    display: flex;
+    height: 26px;
+}
+
+.cart-page_card_item_quantity_count{
+    height: 100%;
+    border: 1px solid rgba(169, 169, 169, 0.521);
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+.cart-page_card_item_quantity_div button{
+    height: 100%;
+    border: none;
+    width: 30px;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 1em;
+    border: 1px solid rgba(169, 169, 169, 0.521);
+    background-color: rgb(255, 255, 255);
+}
+
+.cart-page_card_remove{
+    height: 100%;
+    width: 7%;
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-page_card_remove div {
+    width: 27px;
+    height: 27px;
+    transform: rotate(45deg) scale(0.7);
+    position: relative;
+}
+
+.cart-page_card_remove div span:first-child{
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: grey;
+    position: absolute;
+    left: 12px;
+}
+
+.cart-page_card_remove div span:last-child{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: grey;
+    position: absolute;
+    top: 12px;
+}
