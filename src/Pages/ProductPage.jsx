@@ -29,6 +29,10 @@ const ProductPage = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className="product-page_related_items">
+                <h4>You May Also Like</h4>
+                <div></div>
+            </div> */}
         </div>
     );
 }
