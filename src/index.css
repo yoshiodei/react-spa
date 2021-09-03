@@ -21,3 +21,44 @@ code {
   padding: 0;
   box-sizing: border-box; 
 }
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* ---------------------- */
+/* --------Media--------- */
+/* ---------------------- */
+
+.message {
+  display: none;
+}
+
+@media (max-width: 1000px){
+  body *:not(.message){
+    display:none;
+  }
+
+  body .message{
+    display: block;
+    text-align: center;
+  }
+}
+
+  @media ( min-width: 1600px ){
+    body *:not(.message){
+      display:none;
+    }
+  
+    body .message{
+      display: block;
+      text-align: center;
+    }
+  }
+
+
